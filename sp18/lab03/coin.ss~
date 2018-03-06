@@ -1,6 +1,6 @@
 (setf dd 12)
 (setf mm 10)
-(setf LARGEST-COIN 50)
+(setf LARGEST-COIN 15)
 
 double cc(double amount, double largest__coin){
  return
