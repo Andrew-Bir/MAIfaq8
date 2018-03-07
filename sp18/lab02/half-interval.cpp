@@ -80,9 +80,9 @@ double __arp__try(double neg__point, double pos__point)
 		:true ?
 			test__value = fun(midpoint),
 			test__value > 0 ?  	__arp__try(neg__point, midpoint):
-		    test__value < 0 ?   	__arp__try(midpoint, pos__point):
+			test__value < 0 ?   	__arp__try(midpoint, pos__point):
 			midpoint : false //сложнааа
-		);
+	);
 
 }
 
